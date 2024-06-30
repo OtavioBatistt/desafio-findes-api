@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioFindesAPI", "DesafioFindesAPI.csproj", "{7056FF09-6F8F-473D-A066-828B56925518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7056FF09-6F8F-473D-A066-828B56925518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7056FF09-6F8F-473D-A066-828B56925518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7056FF09-6F8F-473D-A066-828B56925518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7056FF09-6F8F-473D-A066-828B56925518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8048C20-9870-48FC-98A0-2FD465D9743B}
+	EndGlobalSection
+EndGlobal

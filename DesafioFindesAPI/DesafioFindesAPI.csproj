@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Facades\" />
+    <None Remove="Infra\" />
+    <None Remove="Infra\Repositories\" />
+    <None Remove="Infra\Repositories\Interfaces\" />
+    <None Remove="Facades\Interfaces\" />
+    <None Remove="Infra\Services\" />
+    <None Remove="Controllers\" />
+    <None Remove="Models\Dtos\" />
+    <None Remove="LocalStorage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Facades\" />
+    <Folder Include="Infra\" />
+    <Folder Include="Infra\Repositories\" />
+    <Folder Include="Infra\Repositories\Interfaces\" />
+    <Folder Include="Facades\Interfaces\" />
+    <Folder Include="Infra\Services\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\Dtos\" />
+    <Folder Include="LocalStorage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Infra\Repositories\PersistenceRepository.cs" />
+  </ItemGroup>
+</Project>

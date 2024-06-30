@@ -1,0 +1,32 @@
+﻿[
+  {
+    "Id": 1,
+    "Username": "admin@email",
+    "Password": "admin123",
+    "Role": "Admin"
+  },
+  {
+    "Id": 2,
+    "Username": "atendente_1@email",
+    "Password": "atendente123",
+    "Role": "Atendente"
+  },
+  {
+    "Id": 3,
+    "Username": "medico_1@email",
+    "Password": "medico123",
+    "Role": "Medico"
+  },
+  {
+    "Id": 4,
+    "Username": "atendente_2@email",
+    "Password": "atendente123",
+    "Role": "Atendente"
+  },
+  {
+    "Id": 5,
+    "Username": "medico_2@email",
+    "Password": "medico123",
+    "Role": "Medico"
+  }
+]
